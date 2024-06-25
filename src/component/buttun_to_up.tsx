@@ -26,7 +26,7 @@ export function ButtonToUp() {
 
   return (
     <button
-      className={`fixed bottom-4 right-4 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full shadow-md transition-transform duration-500 delay-1500 ${
+      className={`fixed bottom-4 right-4 bg-b4 hover:bg-b2 text-white px-4 py-2 rounded-full shadow-md transition-transform duration-500 delay-1500 ${
         isVisible
           ? "transform translate-x-0 opacity-100 visible"
           : "transform translate-x-full opacity-0 hidden"
