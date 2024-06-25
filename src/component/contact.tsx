@@ -9,7 +9,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 export default function Contact() {
   return (
-    <div className="w-full xl:w-[400px] h-[60%] xl:h-auto bg-b5 p-6  text-white shadow-md text-center xl:pt-12">
+    <div className="flex justify-center flex-col w-full xl:w-[400px] h-[500px] xl:h-auto bg-b5 p-6  text-white shadow-md text-center">
       <img
         className="w-32 h-32 rounded-full mx-auto mb-4"
         src={profile}
@@ -26,7 +26,7 @@ export default function Contact() {
       </p>
       <div className="xl:mb-12 mb-8">
         <p className="text-md">(098) 152-7190</p>
-        <p className="text-md">Email: tttksiriton29@gmail.com</p>
+        <p className="text-md">Email: ttthisiriton29@gmail.com</p>
       </div>
       <div className="flex justify-center space-x-4 xl:mb-12 mb-8">
         <a
@@ -48,12 +48,14 @@ export default function Contact() {
           <FontAwesomeIcon icon={faInstagram} />
         </a>
       </div>
-      <a
-        href="../myProject"
-        className="inline-block bg-b1 text-black font-medium py-2 px-4 rounded hover:text-white"
-      >
-        My project
-      </a>
+      <div className={"w-[100%] pd-2"}>
+        <a
+          href="../myProject"
+          className="bg-b1 text-black font-medium py-2 px-4 rounded hover:text-white w-[50%] "
+        >
+          My project
+        </a>
+      </div>
     </div>
   );
 }

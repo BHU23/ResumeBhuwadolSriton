@@ -4,18 +4,18 @@ import {
   DisclosurePanel,
 } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-
+import ScrollToSection from "../function";
 const navigation = [
-  { name: "About", href: "#" },
-  { name: "Education & Experience", href: "#"},
-  { name: "Skills & Languages", href: "#"},
+  { name: "About", href: "#about", offset: 500 },
+  { name: "Education & Experience", href: "#education-experience" },
+  { name: "Skills & Languages", href: "#skills-languages" },
   {
-    name: "Extracurricular Activities  & Interests",
-    href: "#",
+    name: "Extracurricular Activities & Interests",
+    href: "#activities-interests",
   },
 ];
 
-function classNames(...classes:any) {
+function classNames(...classes: any) {
   return classes.filter(Boolean).join(" ");
 }
 
@@ -26,7 +26,7 @@ export default function Navbar() {
         <>
           <div className="mx-auto h-20 ">
             <div className="relative flex h-20 items-center justify-between">
-              <div className="absolute inset-y-0 left-0 flex items-center md:hidden">
+              <div className="absolute inset-y-0 left-0 flex items-center md:hidden p-6">
                 {/* Mobile menu button*/}
                 <DisclosureButton className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 bg-white hover:bg-b3 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="absolute -inset-0.5" />
@@ -48,6 +48,7 @@ export default function Navbar() {
                       <a
                         key={item.name}
                         href={item.href}
+                        onClick={(event) => ScrollToSection(event, item.href)}
                         className={classNames(
                           "text-white hover:bg-gray hover:text-white rounded-md px-3 py-2 text-sm font-medium"
                         )}
@@ -68,6 +69,7 @@ export default function Navbar() {
                   key={item.name}
                   as="a"
                   href={item.href}
+                  onClick={(event) => ScrollToSection(event, item.href)}
                   className={classNames(
                     "text-gray hover:bg-gray hover:text-white block rounded-md px-3 py-2 text-base font-medium"
                   )}
