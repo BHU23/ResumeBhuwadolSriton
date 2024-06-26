@@ -2,39 +2,60 @@
   {
     "projectname": "Project 1",
     "detail": "Description of Project 1",
-    "img": [
-      { "id": 1, "url": "https://example.com/image1.jpg" },
-      { "id": 2, "url": "https://example.com/image2.jpg" }
+    "slides": [
+      "https://i.pinimg.com/originals/51/82/ac/5182ac536727d576c78a9320ac62de30.jpg",
+      "https://wallpapercave.com/wp/wp3386769.jpg",
+      "https://wallpaperaccess.com/full/809523.jpg",
+      "https://getwallpapers.com/wallpaper/full/5/c/0/606489.jpg"
     ],
     "tools": [
-      { "name": "Tool 1" },
-      { "name": "Tool 2" }
+      { "name": "css" },
+      { "name": "html" }
     ],
     "repo": "https://github.com/username/project1"
   },
   {
     "projectname": "Project 2",
     "detail": "Description of Project 2",
-    "img": [
-      { "id": 1, "url": "https://example.com/image3.jpg" },
-      { "id": 2, "url": "https://example.com/image4.jpg" }
+    "slides": [
+      "https://i.pinimg.com/originals/51/82/ac/5182ac536727d576c78a9320ac62de30.jpg",
+      "https://wallpapercave.com/wp/wp3386769.jpg",
+      "https://wallpaperaccess.com/full/809523.jpg",
+      "https://getwallpapers.com/wallpaper/full/5/c/0/606489.jpg"
     ],
-    "tools": [
-      { "name": "Tool 3" },
-      { "name": "Tool 4" }
+     "tools": [
+      { "name": "css" },
+      { "name": "html" }
     ],
     "repo": "https://github.com/username/project2"
   },
   {
     "projectname": "Project 3",
     "detail": "Description of Project 3",
-    "img": [
-      { "id": 1, "url": "https://example.com/image5.jpg" },
-      { "id": 2, "url": "https://example.com/image6.jpg" }
+    "slides": [
+      "https://i.pinimg.com/originals/51/82/ac/5182ac536727d576c78a9320ac62de30.jpg",
+      "https://wallpapercave.com/wp/wp3386769.jpg",
+      "https://wallpaperaccess.com/full/809523.jpg",
+      "https://getwallpapers.com/wallpaper/full/5/c/0/606489.jpg"
     ],
-    "tools": [
-      { "name": "Tool 5" },
-      { "name": "Tool 6" }
+     "tools": [
+      { "name": "html" },
+      { "name": "css" }
+    ],
+    "repo": "https://github.com/username/project3"
+  },
+  {
+    "projectname": "Project 4",
+    "detail": "Description of Project 4",
+    "slides": [
+      "https://i.pinimg.com/originals/51/82/ac/5182ac536727d576c78a9320ac62de30.jpg",
+      "https://wallpapercave.com/wp/wp3386769.jpg",
+      "https://wallpaperaccess.com/full/809523.jpg",
+      "https://getwallpapers.com/wallpaper/full/5/c/0/606489.jpg"
+    ],
+     "tools": [
+      { "name": "html" },
+      { "name": "re" }
     ],
     "repo": "https://github.com/username/project3"
   }

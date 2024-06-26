@@ -11,7 +11,7 @@ function SkillsLanguages() {
       <DetailSkilllsLanguages
         title={"HTML & CSS"}
         value={""}
-        barWidth={"9/12"}
+        barWidth={"1/4"}
       />
       <DetailSkilllsLanguages title={"SQL"} value={""} barWidth={"1/3"} />
       <DetailSkilllsLanguages title={"SQiL"} value={""} barWidth={"32"} />
@@ -21,7 +21,7 @@ function SkillsLanguages() {
       <DetailSkilllsLanguages
         title={"HTML & CSS"}
         value={""}
-        barWidth={"9/12"}
+        barWidth={"3/4"}
       />
       <DetailSkilllsLanguages title={"SQL"} value={""} barWidth={"1/3"} />
     </div>
