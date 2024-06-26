@@ -16,7 +16,7 @@ function App() {
       <Navbar />
       <div className="flex flex-wrap xl:flex-nowrap text-white xl:h-[800px] h-auto">
         <Intro />
-        <Contact />
+        <Contact/>
       </div>
       <Routes>
         <Route path="/" element={<Home />} />

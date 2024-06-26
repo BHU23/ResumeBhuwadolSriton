@@ -1,17 +1,24 @@
+import React from "react";
 import {
   Disclosure,
   DisclosureButton,
   DisclosurePanel,
 } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import ScrollToSection from "../function";
+import { ScrollToSection, useScrollOnLoad } from "../function";
+
 const navigation = [
-  { name: "About", href: "#about", offset: 500 },
-  { name: "Education & Experience", href: "#education-experience" },
-  { name: "Skills & Languages", href: "#skills-languages" },
+  { name: "About", href: "#about", offset: 20 },
+  {
+    name: "Education & Experience",
+    href: "#education-experience",
+    offset: 50,
+  },
+  { name: "Skills & Languages", href: "#skills-languages", offset: 50 },
   {
     name: "Extracurricular Activities & Interests",
     href: "#activities-interests",
+    offset: 50,
   },
 ];
 
@@ -20,11 +27,13 @@ function classNames(...classes: any) {
 }
 
 export default function Navbar() {
+  useScrollOnLoad(); // ใช้ hook นี้เพื่อเลื่อนไปยังตำแหน่งที่บันทึกไว้เมื่อหน้าถูกโหลดใหม่
+
   return (
     <Disclosure as="nav" className="bg-b5">
       {({ open }) => (
         <>
-          <div className="mx-auto h-20 ">
+          <div className="mx-auto h-20">
             <div className="relative flex h-20 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center md:hidden p-6">
                 {/* Mobile menu button*/}
@@ -48,7 +57,9 @@ export default function Navbar() {
                       <a
                         key={item.name}
                         href={item.href}
-                        onClick={(event) => ScrollToSection(event, item.href)}
+                        onClick={(event) =>
+                          ScrollToSection(event, item.href, item.offset)
+                        }
                         className={classNames(
                           "text-white hover:bg-gray hover:text-white rounded-md px-3 py-2 text-sm font-medium"
                         )}
@@ -69,7 +80,9 @@ export default function Navbar() {
                   key={item.name}
                   as="a"
                   href={item.href}
-                  onClick={(event) => ScrollToSection(event, item.href)}
+                  onClick={(event) =>
+                    ScrollToSection(event, item.href, item.offset)
+                  }
                   className={classNames(
                     "text-gray hover:bg-gray hover:text-white block rounded-md px-3 py-2 text-base font-medium"
                   )}

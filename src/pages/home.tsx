@@ -19,7 +19,7 @@ function Home() {
           <Experience />
         </div>
       </div>
-      <div className="flex flex-wrap xl:flex-nowrap">
+      <div className="h-auto xl:px-24 xl:pt-24 px-10 pt-10">
         <SkillsLanguages />
       </div>
       <div className="flex flex-wrap xl:flex-nowrap">

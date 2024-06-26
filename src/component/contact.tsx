@@ -30,31 +30,48 @@ export default function Contact() {
       </div>
       <div className="flex justify-center space-x-4 xl:mb-12 mb-8">
         <a
-          href="https://www.linkedin.com/in/%E0%B8%A0%E0%B8%B9%E0%B8%A7%E0%B8%94%E0%B8%A5-%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%98%E0%B8%A3-a5a1bb316/"
+          href="https://www.linkedin.com/in/ภูวดล-ศรีธร-a5a1bb316/"
           className="text-3xl hover:text-b1"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
-        <a href="https://github.com/BHU23" className="text-3xl hover:text-b1">
+        <a
+          href="https://github.com/BHU23"
+          className="text-3xl hover:text-b1"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FontAwesomeIcon icon={faGithub} />
         </a>
         <a
           href="https://www.facebook.com/profile.php?id=100010110364450"
           className="text-3xl hover:text-b1"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <FontAwesomeIcon icon={faFacebook} />
         </a>
-        <a href="#" className="text-3xl hover:text-b1">
+        <a
+          href="https://www.instagram.com/tik_kkbl/"
+          className="text-3xl hover:text-b1"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FontAwesomeIcon icon={faInstagram} />
         </a>
       </div>
+
       <div className={"w-[100%] pd-2"}>
-        <a
-          href="../myProject"
-          className="bg-b1 text-black font-medium py-2 px-4 rounded hover:text-white w-[50%] "
-        >
-          My project
-        </a>
+        <div className="w-full p-2 flex items-center justify-center">
+          <a
+            href="../myProject"
+            className="flex items-center justify-center bg-b1 text-black font-medium py-2 px-4 rounded hover:text-white w-[70%] text-center"
+          >
+            My project
+          </a>
+        </div>
       </div>
     </div>
   );
