@@ -19,60 +19,99 @@
       "https://img5.pic.in.th/file/secure-sv1/105de7cf69df0c4f3f.png"
     ],
     "tools": [
-      { "name": "react" },
-      { "name": "typescript" },
-      { "name": "go" },
+      { "name": "React" },
+      { "name": "Typescript" },
+      { "name": "Go" },
       { "name": "html" },
       { "name": "css" },
-      { "name": "antDesign" },
-      { "name": "nodeJS" },
-      { "name": "sqlite" }
+      { "name": "Ant Design" },
+      { "name": "Node.js" },
+      { "name": "mySQL" },
+      { "name": "sqlite" },
+      { "name": "Figma" },
+      { "name": "Draw.io"},
+      { "name": "Docker"}
     ],
     "repo": "https://github.com/BHU23/SE-project-Banna-Cafe"
   },
   {
-    "projectname": "Project 2",
-    "detail": "Description of Project 2",
-    "slides": [
-      "https://i.pinimg.com/originals/51/82/ac/5182ac536727d576c78a9320ac62de30.jpg",
-      "https://wallpapercave.com/wp/wp3386769.jpg",
-      "https://wallpaperaccess.com/full/809523.jpg",
-      "https://getwallpapers.com/wallpaper/full/5/c/0/606489.jpg"
+    "projectname": "Wat Wat", 
+    "detail": "This is part of the course System Analysis and Design, Developed a Welfare System and Temple Administration project consolidates various temples across Thailand, enabling Buddhist communities to conveniently access temple services online. It also benefits temples by managing diverse operations such as borrowing facilities, notifying event hosts, and accepting temple donations.",
+    "working" : [
+      "Analyzed user requirements and Design UMLs diagrams.",
+      "Designed a user-friendly UI Utilized  Figma."
     ],
-     "tools": [
+    "tools": [
+      { "name": "React" },
+      { "name": "Typescript" },
+      { "name": "Go" },
+      { "name": "html" },
       { "name": "css" },
-      { "name": "html" }
+      { "name": "Ant Design" },
+      { "name": "Node.js" },
+      { "name": "mySQL" },
+      { "name": "sqlite" },
+      { "name": "Figma" },
+      { "name": "Draw.io"}
     ],
-    "repo": "https://github.com/username/project2"
+    "slides": [
+      "https://img2.pic.in.th/pic/191da39dcbaf3d31b.png",
+      "https://img5.pic.in.th/file/secure-sv1/276f4afe01b756421.png",
+      "https://img2.pic.in.th/pic/3e02870c567303710.png",
+      "https://img5.pic.in.th/file/secure-sv1/4895d86472e79a4f8.png"
+    ],
+    
+    "repo": "https://github.com/GITTIIII/watwat-web"
   },
   {
-    "projectname": "Project 3",
-    "detail": "Description of Project 3",
+    "projectname": "Student Dormitory Management System ", 
+    "detail": "As part of the \"Database Systems\" course, the student dormitory system aims to analyze and design a database system for managing student dormitories. It facilitates various functionalities for students, including registration, room selection, dormitory and room management, advisor assignment, service room registration, maintenance requests, document appointment scheduling, and payment processing.",
+    "working" : [
+      "Conducted database design analysis, created ER Diagrams, implemented Triggers, and developed UI for efficient data management. Integrated Mview for data visualization using C# .NET and MySQL."
+    ],
     "slides": [
-      "https://i.pinimg.com/originals/51/82/ac/5182ac536727d576c78a9320ac62de30.jpg",
-      "https://wallpapercave.com/wp/wp3386769.jpg",
-      "https://wallpaperaccess.com/full/809523.jpg",
-      "https://getwallpapers.com/wallpaper/full/5/c/0/606489.jpg"
+      "https://img5.pic.in.th/file/secure-sv1/Screenshot-1362cf2987fffd37fcae.png",
+      "https://img2.pic.in.th/pic/Screenshot-13725fd449162a8753e5.png",
+      "https://img5.pic.in.th/file/secure-sv1/Screenshot-13734a9c36678d1c6286.png",
+      "https://img2.pic.in.th/pic/Screenshot-13748d397455fe8f8950.png",
+      "https://img2.pic.in.th/pic/Screenshot-1375fa1fc78507c1afbc.png",
+      "https://img2.pic.in.th/pic/Screenshot-1376.png",
+      "https://img2.pic.in.th/pic/Screenshot-1379299827317c5a4b28.png",
+      "https://img5.pic.in.th/file/secure-sv1/Screenshot-1380.png"
     ],
-     "tools": [
-      { "name": "html" },
-      { "name": "css" }
+    "tools": [
+      { "name": "Mysql Workbench" },
+      { "name": "XAMPP" },
+      { "name": "mySQL" },
+      { "name": "C#" },
+      { "name": ".Net" }
     ],
-    "repo": "https://github.com/username/project3"
-  },
+    "repo": "https://github.com/GITTIIII/watwat-web"
+  }
+  ,
   {
-    "projectname": "Project 4",
-    "detail": "Description of Project 4",
+    "projectname": "Student Dormitory Management System ", 
+    "detail": "As part of the \"Database Systems\" course, the student dormitory system aims to analyze and design a database system for managing student dormitories. It facilitates various functionalities for students, including registration, room selection, dormitory and room management, advisor assignment, service room registration, maintenance requests, document appointment scheduling, and payment processing.",
+    "working" : [
+      "Conducted database design analysis, created ER Diagrams, implemented Triggers, and developed UI for efficient data management. Integrated Mview for data visualization using C# .NET and MySQL."
+    ],
     "slides": [
-      "https://i.pinimg.com/originals/51/82/ac/5182ac536727d576c78a9320ac62de30.jpg",
-      "https://wallpapercave.com/wp/wp3386769.jpg",
-      "https://wallpaperaccess.com/full/809523.jpg",
-      "https://getwallpapers.com/wallpaper/full/5/c/0/606489.jpg"
+      "https://img5.pic.in.th/file/secure-sv1/Screenshot-1362cf2987fffd37fcae.png",
+      "https://img2.pic.in.th/pic/Screenshot-13725fd449162a8753e5.png",
+      "https://img5.pic.in.th/file/secure-sv1/Screenshot-13734a9c36678d1c6286.png",
+      "https://img2.pic.in.th/pic/Screenshot-13748d397455fe8f8950.png",
+      "https://img2.pic.in.th/pic/Screenshot-1375fa1fc78507c1afbc.png",
+      "https://img2.pic.in.th/pic/Screenshot-1376.png",
+      "https://img2.pic.in.th/pic/Screenshot-1379299827317c5a4b28.png",
+      "https://img5.pic.in.th/file/secure-sv1/Screenshot-1380.png"
     ],
-     "tools": [
-      { "name": "html" },
-      { "name": "re" }
+    "tools": [
+      { "name": "Mysql Workbench" },
+      { "name": "XAMPP" },
+      { "name": "mySQL" },
+      { "name": "C#" },
+      { "name": ".Net" }
     ],
-    "repo": "https://github.com/username/project3"
+    "repo": "https://github.com/BHU23/Student-Dormitory-Management-System"
   }
 ]

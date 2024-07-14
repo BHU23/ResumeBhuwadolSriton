@@ -10,7 +10,7 @@ const Tool: React.FC<ToolProps> = ({ name }) => {
   const tool = tools.find((tool) => tool.name === name);
 
   return (
-    <div className="w-auto border-2 border-b1 text-center min-w-32 rounded-md flex flex-row items-center justify-center gap-2 min-h-[44px]">
+    <div className="w-auto border-2 border-b1 text-center min-w-32 rounded-md flex flex-row items-center justify-center gap-2 min-h-[44px] px-2">
       {tool ? (
         <img src={tool.image} alt={name} className="w-auto h-8" />
       ) : (

@@ -29,7 +29,7 @@ function MyProject() {
       {visibleProjects.map((project, index) => (
         <div id={`project${index}`} key={index}>
           <p className="xl:text-3xl py-1 pb-12 text-b5 text-2xl font-bold text-shadow-custom">
-            {project.projectname}
+            Project {currentPage}
           </p>
           <div className="bg-gray h-auto rounded-xl">
             <Carousel slides={project.slides} />
