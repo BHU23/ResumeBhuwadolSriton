@@ -1,5 +1,5 @@
 import React from "react";
-import tools from './tools.json'; 
+import tools from '../data/tools.json'; 
 
 interface ToolProps {
   name: string;
@@ -12,7 +12,7 @@ const Tool: React.FC<ToolProps> = ({ name }) => {
   return (
     <div className="w-auto border-2 border-b1 text-center min-w-32 rounded-md flex flex-row items-center justify-center gap-2 min-h-[44px]">
       {tool ? (
-        <img src={tool.image} alt={name} className="w-auto h-10" />
+        <img src={tool.image} alt={name} className="w-auto h-8" />
       ) : (
         <div className="w-5 h-5 mx-auto mb-2 bg-gray-300 rounded-full"></div>
       )}

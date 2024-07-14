@@ -1,0 +1,19 @@
+{
+    "interest1":{
+      "title": "", 
+      "detail": "Playing board games."
+    },
+    "interest2": {
+      "title": "", 
+      "detail": "Watch movies and series."
+    },
+    "interest3": {
+      "title": "", 
+      "detail": "Listen to music."
+    },
+    "interest4": {
+      "title": "", 
+      "detail": "Codding in new languages."
+    }
+}
+  

@@ -12,14 +12,14 @@ function Footer() {
         <div className="flex flex-wrap xl:flex-nowrap h-auto  xl:gap-10 gap-6 xl:pb-10 pb-6 justify-items-start">
           {/* <div className="h-auto xl:px-24 xl:pt-24 px-10 pt-10 xl:w-[50%] w-full"> */}
           <div className="h-auto xl:w-[50%] w-full">
-            <p className="xl:text-4xl py-1 sm:text-3xl text-2xl text-shadow-custom text-b4 font-semibold whitespace-pre-line">
+            <p className="xl:text-3xl py-1 text-2xl text-shadow-custom text-b4 font-semibold whitespace-pre-line">
               {`อย่าพูดว่าทำไม่ได้...
               ถ้ายังไม่ได้ทำ...`}
             </p>
           </div>
           <div className="h-auto xl:w-[50%] w-full xl:px-24">
             <div className="xl:mb-12 mb-8">
-              <p className="text-md">(098) 152-7190</p>
+              <p className="text-md">(063) 152-5854</p>
               <p className="text-md">Email: ttthisiriton29@gmail.com</p>
             </div>
           </div>

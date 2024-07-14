@@ -13,10 +13,10 @@ function MyProject() {
 
   useEffect(() => {
     sessionStorage.setItem("scrollTo", "#project");
-    sessionStorage.setItem("scrollOffset", "50");
+    sessionStorage.setItem("scrollOffset", "0");
   }, []);
 
-  const onPageChange = (page:number) => {
+  const onPageChange = (page: number) => {
     setCurrentPage(page);
   };
 
@@ -25,10 +25,10 @@ function MyProject() {
   const visibleProjects = projects.slice(startIndex, startIndex + 1);
 
   return (
-    <div className="h-auto xl:p-24 p-10 text-black">
+    <div className="h-auto xl:p-24 p-10 text-black" id="project">
       {visibleProjects.map((project, index) => (
         <div id={`project${index}`} key={index}>
-          <p className="xl:text-3xl py-1 pb-12 sm:text-3xl text-b5 text-2xl font-bold text-shadow-custom">
+          <p className="xl:text-3xl py-1 pb-12 text-b5 text-2xl font-bold text-shadow-custom">
             {project.projectname}
           </p>
           <div className="bg-gray h-auto rounded-xl">
@@ -39,6 +39,11 @@ function MyProject() {
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             {project.detail}
           </p>
+          {project.working?.map((work, index) => (
+            <p key={index}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;{work}
+            </p>
+          ))}
           <div className="flex flex-wrap pt-6 xl:gap-6 gap-4 text-center justify-items-start items-center">
             <p className="font-semibold text-1xl w-auto h-auto">Tools </p>
             <div className="font-semibold text-1xl flex flex-wrap gap-4">

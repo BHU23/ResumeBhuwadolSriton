@@ -1,29 +1,33 @@
 // skills - languages;
 import React from "react";
 import DetailSkilllsLanguages from "./detail_skillls_languages";
-
+import skills from "../data/skills.json";
+import languages from "../data/languages.json";
 function SkillsLanguages() {
   return (
     <div id="skills-languages">
-      <p className="h-auto py-1 pb-5 w-full xl:text-4xl sm:text-3xl text-b5 text-2xl font-bold text-stroke2 text-shadow-custom">
+      <p className="h-auto py-1 pb-5 w-full xl:text-3xl sm:text-2xl text-b5 text-2xl font-bold text-stroke2 text-shadow-custom">
         Skillls & Languages
       </p>
-      <DetailSkilllsLanguages
-        title={"HTML & CSS"}
-        value={""}
-        barWidth={"1/4"}
-      />
-      <DetailSkilllsLanguages title={"SQL"} value={""} barWidth={"1/3"} />
-      <DetailSkilllsLanguages title={"SQiL"} value={""} barWidth={"32"} />
+      {Object.values(skills).map((skill) => (
+        <DetailSkilllsLanguages
+          key={skill.name}
+          title={skill.name}
+          value={""}
+          barWidth={skill.value}
+        />
+      ))}
       <div className="h-auto p-4 w-full">
         <h6 className="h-1 rounded-lg bg-gray w-1/12"></h6>
       </div>
-      <DetailSkilllsLanguages
-        title={"HTML & CSS"}
-        value={""}
-        barWidth={"3/4"}
-      />
-      <DetailSkilllsLanguages title={"SQL"} value={""} barWidth={"1/3"} />
+      {Object.values(languages).map((language) => (
+        <DetailSkilllsLanguages
+          key={language.name}
+          title={language.name}
+          value={""}
+          barWidth={language.value}
+        />
+      ))}
     </div>
   );
 }

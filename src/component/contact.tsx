@@ -25,7 +25,7 @@ export default function Contact() {
         Nakhon Ratchasima, Thailand
       </p>
       <div className="xl:mb-12 mb-8">
-        <p className="text-md">(098) 152-7190</p>
+        <p className="text-md">(063) 152-5854</p>
         <p className="text-md">Email: ttthisiriton29@gmail.com</p>
       </div>
       <div className="flex justify-center space-x-4 xl:mb-12 mb-8">

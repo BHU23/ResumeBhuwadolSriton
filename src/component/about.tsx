@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <div id="about">
-      <p className="xl:text-4xl py-1 pb-5 sm:text-3xl text-white text-2xl font-bold text-stroke2 text-shadow-custom">
+      <p className="xl:text-3xl py-1 pb-5 sm:text-2xl text-white text-2xl font-bold text-stroke2 text-shadow-custom">
         About Me
       </p>
       {/* <p className="xl:text-2xl py-1 sm:text-1xl text-white text-1xl "> */}
@@ -25,3 +25,5 @@ function About() {
 }
 
 export default About;
+
+

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
-
+import image from "../pages/mook/banna_cafe_img/1.jpg";
 type CarouselProps = {
   slides: string[];
   autoSlide?: boolean;
@@ -31,7 +31,7 @@ export default function Carousel({
   }, [current, autoSlide, autoSlideInterval]);
 
   return (
-    <div className="overflow-hidden relative xl:h-[500px] h-full rounded-xl">
+    <div className="overflow-hidden relative h-full rounded-xl">
       <div
         className="flex transition ease-out duration-500"
         style={{ transform: `translateX(-${current * 100}%)` }}
@@ -44,6 +44,7 @@ export default function Carousel({
             className="w-full h-auto"
           />
         ))}
+        <img src="../data/banna_cafe_img/7.png" alt="Example Image" />
       </div>
 
       <div className="absolute top-0 h-full w-full flex justify-between items-center text-white px-10 text-3xl">

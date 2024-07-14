@@ -1,0 +1,23 @@
+[
+  { "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg", "name": "c" },
+  { "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg", "name": "java" },
+  { "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg", "name": "go" },
+  { "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg", "name": "typescript" },
+  { "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg", "name": "html" },
+  { "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg", "name": "css" },
+  { "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg", "name": "csharp" },
+  { "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg", "name": "javascript" },
+  { "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg", "name": "python" },
+  { "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg", "name": "mysql" },
+  { "image": "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg", "name": "firebase" },
+  { "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg", "name": "mongodb" },
+  { "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg", "name": "postgresql" },
+  { "image": "https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg", "name": "sqlite" },
+  { "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg", "name": "react" },
+  { "image": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg", "name": "tailwind" },
+  { "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg", "name": "nodejs" },
+  { "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg", "name": "express" },
+  { "image": "https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg", "name": "selenium" },
+  { "image": "https://img5.pic.in.th/file/secure-sv1/imageaf81b604daa732f5.png", "name": "antDesign" },
+  { "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg", "name": "nodeJS" }
+]

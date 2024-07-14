@@ -1,0 +1,68 @@
+{
+    "Java":{
+      "name": "Java", 
+      "value": 90
+    },
+    "C": {
+      "name": "C", 
+      "value": 80
+    },
+    "Python": {
+      "name": "Python", 
+      "value": 85
+    },
+    "Typescripts": {
+      "name": "Typescripts", 
+      "value": 75
+    },
+    "Go": {
+      "name": "Go", 
+      "value": 75
+    },
+    "MySQL": {
+      "name": "MySQL", 
+      "value": 85
+    },
+    "HTML & CSS": {
+      "name": "HTML & CSS", 
+      "value": 90
+    },
+    "JavaScript": {
+      "name": "JavaScript", 
+      "value": 75
+    },
+    "Tailwind": {
+      "name": "Tailwind", 
+      "value": 75
+    },
+    "Microsoft Office": {
+      "name": "Microsoft Office", 
+      "value": 95
+    },
+    "Visual Studio Code (VS Code)": {
+      "name": "Visual Studio Code (VS Code)", 
+      "value": 90
+    },
+    "Figma": {
+      "name": "Figma", 
+      "value": 85
+    },
+    "draw.io": {
+      "name": "draw.io", 
+      "value": 80
+    },
+    "Postman": {
+      "name": "Postman", 
+      "value": 70
+    },
+    "GitHub": {
+      "name": "GitHub", 
+      "value": 80
+    },
+    "Airflow": {
+      "name": "Airflow", 
+      "value": 65
+    }
+   
+}
+  

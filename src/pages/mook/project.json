@@ -1,18 +1,34 @@
 [
   {
-    "projectname": "Project 1",
-    "detail": "Description of Project 1",
+    "projectname": "Banna Café",
+    "detail": "This is part of the course Software Engineering, Academic Year 2023. The objective is to present the analysis and design of the software system for a café. The system includes management of in-store orders, cashier operations, advance orders, online payments, product reviews and promotions, revenue and expense calculations, employee and membership management, and inventory control. This aims to understand, develop, and improve the software efficiently.",
+    "working" : [
+      "Web application that handles orders, pre-orders, and gradients at a café using React, Go and Andesign.",
+      "Implemented Agile methodology with weekly Scrum meetings and GitHub Project Management.",
+      "Unit testing and automated testing using Katalon."
+    ],
     "slides": [
-      "https://i.pinimg.com/originals/51/82/ac/5182ac536727d576c78a9320ac62de30.jpg",
-      "https://wallpapercave.com/wp/wp3386769.jpg",
-      "https://wallpaperaccess.com/full/809523.jpg",
-      "https://getwallpapers.com/wallpaper/full/5/c/0/606489.jpg"
+      "https://img2.pic.in.th/pic/15687c7ffa13b4e90.png",
+      "https://img2.pic.in.th/pic/2eb36ec838d7f1a9b.png",
+      "https://img5.pic.in.th/file/secure-sv1/3b6784db382e44239.png",
+      "https://img5.pic.in.th/file/secure-sv1/41b4e058226b4b1a5.png",
+      "https://img2.pic.in.th/pic/558a19fa0c1227bf0.png",
+      "https://img5.pic.in.th/file/secure-sv1/6d60860a889813d2b.png",
+      "https://img2.pic.in.th/pic/8ee47d882ef235447.png",
+      "https://img2.pic.in.th/pic/913fc52dd4a003237.png",
+      "https://img5.pic.in.th/file/secure-sv1/105de7cf69df0c4f3f.png"
     ],
     "tools": [
+      { "name": "react" },
+      { "name": "typescript" },
+      { "name": "go" },
+      { "name": "html" },
       { "name": "css" },
-      { "name": "html" }
+      { "name": "antDesign" },
+      { "name": "nodeJS" },
+      { "name": "sqlite" }
     ],
-    "repo": "https://github.com/username/project1"
+    "repo": "https://github.com/BHU23/SE-project-Banna-Cafe"
   },
   {
     "projectname": "Project 2",
