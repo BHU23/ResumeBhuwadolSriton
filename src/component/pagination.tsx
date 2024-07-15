@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 interface PaginationProps {
-  totalProjects: Array<any>; // Replace 'any' with the actual type of your projects data
+  totalProjects: Array<any>; 
   onPageChange: (page: number) => void;
 }
 
@@ -13,7 +13,7 @@ const Pagination: React.FC<PaginationProps> = ({
   const [pages, setPages] = useState<Array<number>>([]);
 
   useEffect(() => {
-    const numPages = Math.ceil(totalProjects.length / 1); // 1 project per page
+    const numPages = Math.ceil(totalProjects.length / 1); 
     const pagesArray = Array.from(
       { length: numPages },
       (_, index) => index + 1
@@ -39,6 +39,20 @@ const Pagination: React.FC<PaginationProps> = ({
     }
   };
 
+  // Calculate the range of pages to display
+  const getDisplayPages = () => {
+    const maxPagesToShow = 3;
+    let startPage = Math.max(currentPage - Math.floor(maxPagesToShow / 2), 1);
+    let endPage = startPage + maxPagesToShow - 1;
+
+    if (endPage > pages.length) {
+      endPage = pages.length;
+      startPage = Math.max(endPage - maxPagesToShow + 1, 1);
+    }
+
+    return pages.slice(startPage - 1, endPage);
+  };
+
   return (
     <div className="flex bg-white rounded-lg font-[Poppins]">
       <button
@@ -56,7 +70,7 @@ const Pagination: React.FC<PaginationProps> = ({
           ></path>
         </svg>
       </button>
-      {pages.map((page, index) => (
+      {getDisplayPages().map((page, index) => (
         <div
           key={index}
           onClick={() => handlePageClick(page)}

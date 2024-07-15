@@ -34,16 +34,61 @@ function MyProject() {
           <div className="bg-gray h-auto rounded-xl">
             <Carousel slides={project.slides} />
           </div>
-          <p className="font-semibold pt-12 text-2xl">{project.projectname}</p>
+          <p className="pt-12">
+            {" "}
+            <span className="font-semibold pt-12 text-2xl">
+              {project.projectname}{" "}
+              <a
+                href={project.discretion}
+                className="font-normal pt-12 text-base hover:text-b2"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {project.discretion ? " • open website" : ""}
+              </a>
+            </span>
+          </p>
+
           <p className="font-normal pt-4 text-1xl">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             {project.detail}
           </p>
-          {project.working?.map((work, index) => (
-            <p key={index}>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;{work}
-            </p>
-          ))}
+          {project.features ? (
+            <div className="pt-6 pb-2 xl:gap-6 gap-4 ">
+              <p className="font-semibold text-1xl w-auto h-auto pb-4">
+                Features
+              </p>
+              {project.features?.map((feature, index) => (
+                <p key={index}>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;
+                  {feature}
+                </p>
+              ))}
+            </div>
+          ) : (
+            ""
+          )}
+          {project.data_sources ? (
+            <div className="pt-6 pb-2 xl:gap-6 gap-4 ">
+              <p className="font-semibold text-1xl w-auto h-auto">
+                Data Source
+              </p>
+              <p className="font-normal pt-4 text-1xl">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                {project.data_sources}
+              </p>
+            </div>
+          ) : (
+            ""
+          )}
+          <div className="pt-6 pb-2 xl:gap-6 gap-4 ">
+            <p className="font-semibold text-1xl w-auto h-auto pb-4">To Do </p>
+            {project.working?.map((work, index) => (
+              <p key={index}>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;{work}
+              </p>
+            ))}
+          </div>
           <div className="flex flex-wrap pt-6 xl:gap-6 gap-4 text-center justify-items-start items-center">
             <p className="font-semibold text-1xl w-auto h-auto">Tools </p>
             <div className="font-semibold text-1xl flex flex-wrap gap-4">

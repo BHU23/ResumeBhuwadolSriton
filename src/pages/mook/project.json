@@ -64,6 +64,37 @@
     "repo": "https://github.com/GITTIIII/watwat-web"
   },
   {
+    "projectname": "Graduated Go", 
+    "discretion" :"https://graduatedgo.onrender.com/",
+    "detail": "Developed a web application using Go for calculating GPA, GPAX, and grade points specifically designed for first-year engineering students at Suranaree University of Technology.",
+    "features" : [
+      "Study Plan Selection: Users can select from various study plans (A, B, C, D, E, F, X1, X2) based on the academic year 2023 curriculum.",
+      "Grade Point Comparison: The application allows students to compare their expected grade points with historical statistics from 2019-2022.",
+      "Non-Commercial: This project is entirely non-profit and all data has been gathered and verified by the developer."
+    ],
+    "data_sources": "All information was meticulously researched and compiled by the developer. Apologies for any potential inaccuracies.",
+    "working" : [
+      "Study Plan Selection: Users can select from various study plans (A, B, C, D, E, F, X1, X2) based on the academic year 2023 curriculum.",
+      "Grade Point Comparison: The application allows students to compare their expected grade points with historical statistics from 2019-2022.",
+      "Non-Commercial: This project is entirely non-profit and all data has been gathered and verified by the developer."
+    ],
+    "slides": [
+      "https://img5.pic.in.th/file/secure-sv1/Screenshot-2988.png",
+      "https://img5.pic.in.th/file/secure-sv1/Screenshot-2990.png",
+      "https://img2.pic.in.th/pic/Screenshot-2991.png",
+      "https://img2.pic.in.th/pic/Screenshot-2992.png",
+      "https://img2.pic.in.th/pic/Screenshot-2989.png"
+    ],
+    "tools": [
+       { "name": "React" },
+       { "name": "Vit" },
+      { "name": "Tailwind" },
+      { "name": "html" },
+      { "name": "Figma" }
+    ],
+    "repo": "https://github.com/BHU23/Graduated/tree/main"
+  },
+  {
     "projectname": "Student Dormitory Management System ", 
     "detail": "As part of the \"Database Systems\" course, the student dormitory system aims to analyze and design a database system for managing student dormitories. It facilitates various functionalities for students, including registration, room selection, dormitory and room management, advisor assignment, service room registration, maintenance requests, document appointment scheduling, and payment processing.",
     "working" : [
@@ -88,30 +119,5 @@
     ],
     "repo": "https://github.com/GITTIIII/watwat-web"
   }
-  ,
-  {
-    "projectname": "Student Dormitory Management System ", 
-    "detail": "As part of the \"Database Systems\" course, the student dormitory system aims to analyze and design a database system for managing student dormitories. It facilitates various functionalities for students, including registration, room selection, dormitory and room management, advisor assignment, service room registration, maintenance requests, document appointment scheduling, and payment processing.",
-    "working" : [
-      "Conducted database design analysis, created ER Diagrams, implemented Triggers, and developed UI for efficient data management. Integrated Mview for data visualization using C# .NET and MySQL."
-    ],
-    "slides": [
-      "https://img5.pic.in.th/file/secure-sv1/Screenshot-1362cf2987fffd37fcae.png",
-      "https://img2.pic.in.th/pic/Screenshot-13725fd449162a8753e5.png",
-      "https://img5.pic.in.th/file/secure-sv1/Screenshot-13734a9c36678d1c6286.png",
-      "https://img2.pic.in.th/pic/Screenshot-13748d397455fe8f8950.png",
-      "https://img2.pic.in.th/pic/Screenshot-1375fa1fc78507c1afbc.png",
-      "https://img2.pic.in.th/pic/Screenshot-1376.png",
-      "https://img2.pic.in.th/pic/Screenshot-1379299827317c5a4b28.png",
-      "https://img5.pic.in.th/file/secure-sv1/Screenshot-1380.png"
-    ],
-    "tools": [
-      { "name": "Mysql Workbench" },
-      { "name": "XAMPP" },
-      { "name": "mySQL" },
-      { "name": "C#" },
-      { "name": ".Net" }
-    ],
-    "repo": "https://github.com/BHU23/Student-Dormitory-Management-System"
-  }
+  
 ]
