@@ -1,4 +1,4 @@
-import React from "react";
+
 import About from "../component/about";
 import EducationExperience from "../component/education";
 import Experience from "../component/experience";

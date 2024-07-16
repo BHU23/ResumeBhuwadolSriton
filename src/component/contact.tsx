@@ -1,4 +1,3 @@
-import React from "react";
 import profile from "../assets/profile.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {

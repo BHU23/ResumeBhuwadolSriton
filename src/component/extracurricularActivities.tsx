@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { DetailExtracurricularActivitiesInteres } from './detail_extracurricularActivities_interes';
 
 function ExtracurricularActivities() {

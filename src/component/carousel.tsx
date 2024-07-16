@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
-import image from "../pages/mook/banna_cafe_img/1.jpg";
 type CarouselProps = {
   slides: string[];
   autoSlide?: boolean;

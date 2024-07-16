@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'//rcfe
+import  { useEffect, useState } from 'react' //rcfe
 
 export function ButtonToUp() {
     const [isVisible, setIsVisible] = useState(false);

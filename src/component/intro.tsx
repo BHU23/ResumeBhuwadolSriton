@@ -1,4 +1,4 @@
-import React from "react";
+
 import bgImage from "../assets/bgmain1.png";
 
 function Intro() {

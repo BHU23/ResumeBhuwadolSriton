@@ -1,5 +1,5 @@
 // skills - languages;
-import React from "react";
+
 import DetailSkilllsLanguages from "./detail_skillls_languages";
 import skills from "../data/skills.json";
 import languages from "../data/languages.json";

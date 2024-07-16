@@ -1,4 +1,4 @@
-import React from "react";
+
 import { DetailEducationExperience } from "./detail_education_experience";
 
 function EducationExperience() {
