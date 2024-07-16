@@ -30,7 +30,7 @@ export default function Contact() {
       </div>
       <div className="flex justify-center space-x-4 xl:mb-12 mb-8">
         <a
-          href="https://www.linkedin.com/in/ภูวดล-ศรีธร-a5a1bb316/"
+          href="https://www.linkedin.com/in/bhuwadol-sriton/"
           className="text-3xl hover:text-b1"
           target="_blank"
           rel="noopener noreferrer"

@@ -29,7 +29,7 @@ function Footer() {
           <div className="h-auto xl:w-[50%] w-full ">
             <div className="flex space-x-4 xl:mb-12 mb-8 justify-items-start">
               <a
-                href="https://www.linkedin.com/in/ภูวดล-ศรีธร-a5a1bb316/"
+                href="https://www.linkedin.com/in/bhuwadol-sriton/"
                 className="text-3xl hover:text-b1"
                 target="_blank"
                 rel="noopener noreferrer"
