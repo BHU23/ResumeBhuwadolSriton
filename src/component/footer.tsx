@@ -1,5 +1,6 @@
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 import {
   faLinkedin,
   faGithub,
@@ -64,12 +65,12 @@ function Footer() {
           </div>
           <div className="h-auto xl:w-[50%] w-full xl:px-24">
             <div className="w-full p-2">
-              <a
-                href="../myProject"
+              <Link
+                to="/myProject"
                 className="flex items-center justify-center bg-b1 text-black font-medium py-2 px-4 rounded hover:text-white w-[70%] text-center"
               >
                 My project
-              </a>
+              </Link>
             </div>
           </div>
         </div>
