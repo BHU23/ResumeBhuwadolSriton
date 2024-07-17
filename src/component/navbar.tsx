@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import {
   Disclosure,
   DisclosureButton,
@@ -54,18 +54,20 @@ export default function Navbar() {
                 <div className="hidden md:ml-6 md:block">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        onClick={(event) =>
-                          ScrollToSection(event, item.href, item.offset)
-                        }
-                        className={classNames(
-                          "text-white hover:bg-gray hover:text-white rounded-md px-3 py-2 text-sm font-medium"
-                        )}
-                      >
-                        {item.name}
-                      </a>
+                      <Link to="../">
+                        <a
+                          key={item.name}
+                          href={item.href}
+                          onClick={(event) =>
+                            ScrollToSection(event, item.href, item.offset)
+                          }
+                          className={classNames(
+                            "text-white hover:bg-gray hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                          )}
+                        >
+                          {item.name}
+                        </a>
+                      </Link>
                     ))}
                   </div>
                 </div>
@@ -76,19 +78,21 @@ export default function Navbar() {
           <DisclosurePanel className="md:hidden">
             <div className="space-y-1 px-2 pb-3 pt-2">
               {navigation.map((item) => (
-                <DisclosureButton
-                  key={item.name}
-                  as="a"
-                  href={item.href}
-                  onClick={(event) =>
-                    ScrollToSection(event, item.href, item.offset)
-                  }
-                  className={classNames(
-                    "text-gray hover:bg-gray hover:text-white block rounded-md px-3 py-2 text-base font-medium"
-                  )}
-                >
-                  {item.name}
-                </DisclosureButton>
+                <Link to="../">
+                  <DisclosureButton
+                    key={item.name}
+                    as="a"
+                    href={item.href}
+                    onClick={(event) =>
+                      ScrollToSection(event, item.href, item.offset)
+                    }
+                    className={classNames(
+                      "text-gray hover:bg-gray hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+                    )}
+                  >
+                    {item.name}
+                  </DisclosureButton>
+                </Link>
               ))}
             </div>
           </DisclosurePanel>
