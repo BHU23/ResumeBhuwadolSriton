@@ -65,7 +65,7 @@ export default function Contact() {
       <div className={"w-[100%] pd-2"}>
         <div className="w-full p-2 flex items-center justify-center">
           <a
-            href="/myProject"
+            href="../myProject"
             className="flex items-center justify-center bg-b1 text-black font-medium py-2 px-4 rounded hover:text-white w-[70%] text-center"
           >
             My project
