@@ -8,13 +8,15 @@ import projects from "./mook/project.json";
 import Pagination from "../component/pagination";
 
 function MyProject() {
-  useScrollOnLoad();
+  
   const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
     sessionStorage.setItem("scrollTo", "#project");
     sessionStorage.setItem("scrollOffset", "0");
   }, []);
+
+  useScrollOnLoad();
 
   const onPageChange = (page: number) => {
     setCurrentPage(page);
