@@ -1,7 +1,9 @@
 import React, { useEffect } from "react";
 
 const ScrollToSection = (
-  event: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
+  event:
+    | React.MouseEvent<HTMLDivElement, MouseEvent>
+    | React.MouseEvent<HTMLAnchorElement, MouseEvent>,
   href: string,
   offset: number = 0
 ) => {
@@ -10,7 +12,7 @@ const ScrollToSection = (
   if (window.location.pathname !== "/") {
     sessionStorage.setItem("scrollTo", href);
     sessionStorage.setItem("scrollOffset", offset.toString());
-    window.location.href = `http://localhost:5173`;
+    window.location.href = `/`;
   } else {
     const target = document.querySelector(href);
     if (target instanceof HTMLElement) {
