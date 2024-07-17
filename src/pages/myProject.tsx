@@ -27,7 +27,7 @@ function MyProject() {
   return (
     <div className="h-auto xl:p-24 p-10 text-black" id="project">
       {visibleProjects.map((project, index) => (
-        <div id={`project${index}`} key={index}>
+        <div id={`project`} key={index}>
           <p className="xl:text-3xl py-1 pb-12 text-b5 text-2xl font-bold text-shadow-custom">
             Project {currentPage}
           </p>
